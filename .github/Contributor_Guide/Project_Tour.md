@@ -1,12 +1,35 @@
 # Project Tour
 
-* notes:
-*  > Discuss about your project file structure
-*  > what each folder is responsible
-*  > then go through each file in folders and explain there purpose
-*  > if possible create a doc system ( there are autogen docs available for most of the languages )
-*  > decide coding style , linting style and formatting style and other themes like variable naming etc.
-*  > provide an example for existing function and tests system if possible 
-*  
+## Folder Structure
 
-# MAKE SURE PROJECT MANAGERS UPDATE THIS MD 
+* `easy` : contains all easy issues.
+
+    * `day_1` : contains issues of day 1
+
+        * `problem.txt` : contains main problem statement
+
+    * `day_2` : contains issues of day 2
+
+        * `problem.txt` : contains main problem statement
+
+    * `similar for all days`
+
+* `medium` : contains all medium issues.
+
+    * `day_1` : contains issues of day 1
+
+        * `problem.txt` : contains main problem statement
+
+    * `day_2` : contains issues of day 2
+
+        * `problem.txt` : contains main problem statement
+
+* `hard` : contains all hard issues.
+
+    * `day_1` : contains issues of day 1
+
+        * `problem.txt` : contains main problem statement
+
+    * `day_2` : contains issues of day 2
+
+        * `problem.txt` : contains main problem statement
