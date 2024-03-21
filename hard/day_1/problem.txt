@@ -1,0 +1,21 @@
+Mr. Naag has a tree with N vertices, where each vertex is labeled with a number, either 0 or 1. The vertices are arranged in a hierarchical manner, with Vertex 1 being the root, and each vertex (except for the root) having a parent vertex. The parent of Vertex i (where 2 ≤ i ≤ N) is denoted as Vertex Pi (Pi < i).
+
+Now, Mr. Naag wants to lay out the vertices of this tree horizontally in a row. In this arrangement, for every vertex, none of its ancestors should be positioned to the right of it. After arranging the vertices, let's denote the resulting sequence by X, obtained by reading the numbers written on the vertices from left to right.
+
+Mr. Naag's goal is to minimize the number of inversions in sequence X. The inversion number of a sequence Z of length N is defined as the count of pairs of integers i and j (where 1 ≤ i < j ≤ N) such that the value of Zi is greater than Zj.
+
+The task is to determine the minimum possible inversion number of sequence X after arranging the vertices horizontally.
+
+Input
+Input is given from Standard Input in the following format:
+N
+P2 P3 ... PN
+V1 V2 ... VN
+ 
+Output
+Print the minimum possible inversion number of X.
+
+
+TASK:
+Write a solution for this code in the best time and memory complexity you can think of.
+[Check the sample_test_case.txt file for sample test cases.]

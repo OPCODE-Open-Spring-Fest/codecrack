@@ -1,0 +1,22 @@
+Input
+4
+7
+1 1 1 1 1 1 1
+4
+3 2 1 3
+3
+1 2 3
+1
+1
+
+Output
+35
+2
+0
+0
+
+In the first test case of the example, any three sticks out of the given 7 can be chosen.
+
+In the second test case of the example, you can choose the 1-st, 2-nd and 4-th stick, or the 1-st, 3-rd and 4-th stick.
+
+In the third test case of the example, you cannot form a triangle out of the given sticks with lengths 2, 4 and 8.

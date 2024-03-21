@@ -1,0 +1,17 @@
+Write a program in C++ to take n integers from user and sort them.
+
+Constraints:
+The code must be written in C++ language.
+You are not allowed to use any predefined functions like sort().
+You are not allowed to use any loop like for, while, do-while.
+
+INPUT:
+The first line contains one integer t (1<= t <= 10)  — the number of test cases.
+Each test case consists of two lines:
+the first line contains one integer n (1≤n≤30000);
+the second line contains n integers a[1], a[2], … , a[n] (0 <= a[i] <= 5000000)
+
+OUTPUT:
+For each test case, print the n integer in a single line, sorted in ascending order.
+
+No additional file has been provided for this puzzle.

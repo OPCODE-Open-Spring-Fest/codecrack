@@ -1,0 +1,5 @@
+Read and Understand the code.
+Rename all variables and functions with appropriate meaningful names
+Write comments in the entire code explaining the reason for each line.
+Also look for any syntactical or logical error in the code, if present.
+DO NOT unnecessarily modify the code.
