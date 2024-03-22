@@ -31,6 +31,6 @@ int main()
             s += c * (c - 1) * (c - 2) / 6;
         if (n - c > 0)
             s += c * (c - 1) / 2 * (n - c);
-        Cout << s << endl;
+        cout << s << endl;
     }
 }
