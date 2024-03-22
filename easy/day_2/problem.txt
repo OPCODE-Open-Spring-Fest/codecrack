@@ -1,0 +1,9 @@
+Write a c++ program to take |n| numbers from user a1, a2, ..., an and find their sum.
+|x| implies absolute of x, if x=-5 |x|=5, if x=5 |x|=5.
+
+Constraints:
+-10^5<=n<=10^5
+-10^9<=ai<=10^9
+
+Solution to the code is provided in solution.cpp file, but the code is failing in some test cases, DEBUG it.
+Note: Printing the strings is not causing any error, the sum is coming wrong.

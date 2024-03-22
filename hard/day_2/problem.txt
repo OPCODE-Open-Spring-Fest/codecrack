@@ -1,0 +1,21 @@
+Consider an integer sequence of length 2N, denoted as A = (A1, A2, ..., A2N), where each integer from 1 to N appears exactly twice. Our goal is to transform A into a specific type of sequence known as a "bright sequence" by performing a series of operations. In a bright sequence, for every index i ranging from 1 to N, the value of the element at index 2i-1 is equal to the value of the element at index 2i.
+
+To achieve this, we are allowed to swap the values of two adjacent terms within the sequence A any number of times. Let's denote K as the minimum number of operations required to transform A into a bright sequence. Our task is to determine the lexicographically smallest bright sequence that can be obtained after performing these K operations on A.
+
+Constraints
+1≤N≤2×10^5 
+1≤A[i]≤N
+A contains each integer i=1,2,…,N exactly twice.
+All input values are integers.
+
+Input
+The input is given from Standard Input in the following format:
+N
+A1 A2 … A2N
+​
+Output
+Print the lexicographically smallest good sequence that can be obtained by performing the operations K times on A, with spaces in between.
+
+TASK:
+Write a solution for this code in solution.cpp in the best time and memory complexity you can think of.
+[Check the sample_test_case.txt file for sample test cases.]

@@ -1,0 +1,5 @@
+You are given a C++ program in prog.cpp file that compiles and runs without error, but it prints out garbage data when executed. Your task is to find and fix the issue causing the incorrect output without changing anything outside of a single function.
+
+Write in comments what was causing the error in this code and how did you fix it.
+
+Also, don't just remove the pointer to solve the problem, THINK.
