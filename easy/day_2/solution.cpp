@@ -1,4 +1,4 @@
-#include<iostream>
+#include <iostream>
 #define ll long long
 int main()
 {
@@ -6,7 +6,7 @@ int main()
     ll sum = 0;
     std::cout << "Enter the number of elements: ";
     std::cin >> n;
-    n = (n<0)?(-1*n):n;
+    n = (n < 0) ? (-1 * n) : n;
     std::cout << "Enter " << n << " numbers:\n";
     for (int i = 0; i < n; ++i)
     {
