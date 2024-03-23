@@ -1,15 +1,12 @@
-#include<iostream>
-#define ll long long
-int main()
-{
+#include <iostream>
+
+int main() {
     int n;
-    ll sum = 0;
+    int sum = 0;
     std::cout << "Enter the number of elements: ";
     std::cin >> n;
-    n = (n<0)?(-1*n):n;
     std::cout << "Enter " << n << " numbers:\n";
-    for (int i = 0; i < n; ++i)
-    {
+    for (int i = 0; i < n; ++i) {
         int num;
         std::cout << "Enter number " << i + 1 << ": ";
         std::cin >> num;
