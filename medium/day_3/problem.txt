@@ -1,0 +1,17 @@
+You are assigned to complete a series of tasks, each with its own duration and deadline. You must process these tasks sequentially, and your reward for each task is calculated based on its deadline and your finishing time, represented as d - f (where d is the deadline and f is your completion time, starting from 0). Even if a task would result in a negative reward, you are required to complete all tasks.
+
+What is the maximum reward you can achieve by optimizing your task processing order?
+
+Input
+The initial input comprises an integer, n, indicating the number of tasks to be completed.
+Following this, there are n lines detailing each task. Each line contains two integers, a and d, representing the duration and deadline of the respective task.
+
+Output
+Output a single integer indicating the maximum reward attainable.
+
+Constraints
+1 <= n <= 2 * 10^5
+1 <= a, d <= 10^6
+
+
+Write your solution to this problem in solution.cpp file.

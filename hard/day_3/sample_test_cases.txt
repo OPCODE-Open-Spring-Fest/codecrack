@@ -1,0 +1,8 @@
+Input:
+8
+2 10 5 12 9 5 1 5
+
+Output:
+9
+
+Refer the image pyramid.png for explanation.

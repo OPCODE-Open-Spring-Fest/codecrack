@@ -1,0 +1,25 @@
+Input
+4
+1
+2
+2
+3
+1 2 3
+4 5 6
+2
+1 2
+2 1
+5
+1 2 2 2 2
+2 1 1 1 1
+
+output
+2
+1
+2
+5
+
+Note
+In the first test case, we can only make c=[2,2], thus the answer is 2.
+In the second test case, since all values are distinct, the answer must be 1.
+In the third test case, the arrays c we can make are [1,2,1,2], [1,2,2,1], [2,1,1,2], [2,1,2,1]. We can see that the answer is 2 when we choose c=[1,2,2,1].

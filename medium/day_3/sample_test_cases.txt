@@ -1,0 +1,10 @@
+Example
+
+Input:
+3
+6 10
+8 15
+5 12
+
+Output:
+2

@@ -1,0 +1,17 @@
+Imagine a structure resembling a pyramid, where each number is calculated as the exclusive OR (XOR) of the two numbers directly below it. For instance, consider the following pyramid: [refer to pyramid.png]
+
+Your task is to determine the topmost number of this pyramid given the bottom row.
+
+Input
+The first line of input contains an integer, n, denoting the size of the pyramid.
+Following this, the second line consists of n integers, a_1, a_2, ..., a_n, representing the bottom row of the pyramid.
+
+Output
+Output a single integer representing the topmost number of the pyramid.
+
+Constraints
+1 <= n <= 2 * 10^5
+1 <= a_i <= 10^9
+
+
+Write the solution to this problem in solution.cpp

@@ -1,0 +1,18 @@
+Consider two arrays, a and b, both of length n.
+
+Your task is to merge these arrays into another array, c, of length 2n. Your objective is to determine the maximum length of a subarray within c that consists of the same values.
+
+A merge of two arrays results in an array c composed by successively taking the first element of either array (as long as that array is nonempty) and removing it. After this step, the element is appended to the back of c. We repeat this operation as long as we can (i.e. at least one array is nonempty).
+
+Input
+Each set of test cases contains multiple scenarios. To start, a single integer, t (1≤t≤10^4), representing the number of test cases, is provided. Following this, the details of each test case are given.
+For each test case:
+- The initial line contains a single integer, n (1≤n≤2⋅10^5), indicating the length of arrays a and b.
+- The subsequent line presents n integers a1, a2,…, an (1≤ai≤2⋅n), representing the elements of array a.
+- The subsequent line presents n integers b1, b2,…, bn (1≤bi≤2⋅n), representing the elements of array b.
+The total sum of n across all test cases does not exceed 2⋅10^5.
+
+Output
+For each test case, you should provide the maximum length of a subarray consisting of equal values after merging the arrays.
+
+Write the solution to this problem in solution.cpp file
