@@ -1,31 +1,47 @@
 // Write your solution here
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
+#define ll long long
+
 using namespace std;
-int main(){
-    int a ;
-    cin>>a;
-    while(a--){
-        int n ;
-        cin>>n;
-        vector<int> p(n) , q(n);
-        for(int j = 0 ; j<n ; j++){
-            cin>>p[j];
-        }
-        for(int j = 0 ;j<n ; j++){
-            cin>>q[j];
-        }
-        unordered_map <int ,int> l;
-        for(int j = 0 ;j<n ;j++){
-            l[p[j]]++;
-            l[q[j]]++;
-        }
-        int curr = 0;
-        int maxl = 0;
-      for (auto& entry : l) {
-        curr = max(curr, entry.second);
-        maxl = max(maxl, entry.second);
+
+void function1() {
+    int n;
+    cin >> n;
+    int p[n], q[n], maxFreq[n*2];
+    for (int i = 1; i <= n * 2; i++)
+        maxFreq[i] = 0;
+    int count = 0; 
+    int ans = 0;
+    for (int i = 1; i <= n; i++) {
+        cin >> p[i];
+        if (p[i] != p[i - 1])
+            count = 1; 
+        else
+            count++; 
+        maxFreq[p[i]] = max(maxFreq[p[i]], count); 
+        ans = max(ans, count); 
     }
-    cout<<maxl<<endl;
+    count = 0; 
+    for (int i = 1; i <= n; i++) {
+        cin >> q[i];
+        if (q[i] != q[i - 1])
+            count = 1; 
+        else
+            count++; 
+        ans = max(ans, count + maxFreq[q[i]]); 
     }
-    return 0;}
+    cout << ans << "\n";
+}
+
+int main() {
+    int t;
+    cin >> t;
+    while (t--)
+        function1();
+    return 0;
+}
+
+
+
+
 
