@@ -1,9 +1,7 @@
 // Write your solution here
 #include <bits/stdc++.h>
 #define ll long long
-
 using namespace std;
-
 void function1() {
     int n;
     cin >> n;
@@ -32,7 +30,6 @@ void function1() {
     }
     cout << ans << "\n";
 }
-
 int main() {
     int t;
     cin >> t;
