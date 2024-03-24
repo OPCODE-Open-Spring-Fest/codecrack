@@ -1,6 +1,6 @@
 //Write your code here
-//Code by Jagpreet 153
-//Aprroach sort the tasks based on duration in ascending order and then calculate the reward by subtracting the completion time from the deadline.
+//Code by Jagpreet153
+// Approach stored the duration and deadline in a map and then iterated over the map and calculated the reward for each task and added it to the ans variable and then printed the ans variable.
 #include<bits/stdc++.h>
 using namespace std;
 long long int taskScheduling(vector<pair<long long int, long long int>>& tasks) {
