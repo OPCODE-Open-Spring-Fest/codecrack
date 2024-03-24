@@ -1,5 +1,4 @@
-//Write your code here
-//CODE BY Jagpreet 153
+//code by Jagpreet153
 // Approach stored the duration and deadline in a map and then iterated over the map and calculated the reward for each task and added it to the ans variable and then printed the ans variable.
 #include<bits/stdc++.h>
 using namespace std;
