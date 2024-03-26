@@ -1,0 +1,13 @@
+Riley, a mischievous character with a knack for yo-yo tricks, seeks to annoy his friend Anton by strategically throwing two yo-yos in Anton's room. Anton's room is depicted as a grid with rows and columns, with Anton standing at a specific position within the room. 
+
+The task at hand is to determine the optimal placement for the two yo-yos so that Anton, while picking them up and returning to his initial position, travels the maximum possible distance. Anton can move only to adjacent cells vertically or horizontally.
+
+Given the dimensions of the room and Anton's initial position, the challenge is to find the coordinates where Riley should throw the yo-yos.
+
+The input consists of multiple test cases, each providing the room's dimensions and Anton's position.
+
+Your objective is to output the coordinates for the yo-yo throws that maximize Anton's travel distance.
+
+In scenarios with multiple solutions, any valid solution can be provided.
+
+Let's devise a plan to identify these optimal yo-yo throwing locations for Riley's mischievous scheme.

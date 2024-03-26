@@ -1,0 +1,9 @@
+Given two integers \( l \) and \( r \), we're tasked with constructing a string of length \( n \) containing digits, aiming to maximize the number of substrings within it that form modest integers within the range \( [l, r] \). Here, a modest integer falls within the inclusive range \( [l, r] \).
+
+If there exist multiple valid solutions, we should output the lexicographically smallest one.
+
+The input provides \( l \), \( r \), and \( n \).
+
+Our goal is to output the count of maximum modest substrings achievable and then provide the corresponding string fulfilling these criteria.
+
+Let's devise a strategy to generate this optimal string while adhering to the given conditions.

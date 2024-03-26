@@ -1,0 +1,18 @@
+Examples
+
+input
+4 100 2
+20 30 75 80
+output
+17
+
+input
+5 100 3
+1 2 4 60 87
+output
+6
+
+Note
+In the first example, you can use a piece of length 11 to cover the broken segments 20 and 30, and another piece of length 6 to cover 75 and 80,  for a total length of 17.
+
+In the second example, you can use a piece of length 4 to cover broken segments 1, 2 and 4, and two pieces of length 1 to cover broken segments 60 and 87.
