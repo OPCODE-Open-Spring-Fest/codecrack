@@ -1,0 +1,11 @@
+You're given an array of integers and your task is to identify the indices of elements such that if you remove that element, the resulting array becomes "good". An array is considered "good" if there exists an element in it that equals the sum of all other elements.
+
+For instance, if you have an array like [8,3,5,2], the indices 1 and 4 are considered "nice" because if you remove either the first or the fourth element, the resulting array becomes "good".
+
+The input consists of the number of elements in the array followed by the array itself.
+
+Your objective is to output the count of indices that meet the criteria along with the actual indices themselves.
+
+If there are no such indices, you should simply output 0.
+
+Let's proceed to identify these "nice" indices and fulfill the task accordingly.

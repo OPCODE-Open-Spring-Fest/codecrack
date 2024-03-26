@@ -1,0 +1,13 @@
+You've been tasked with a problem where you're given an array of positive integers. The objective is to modify this array through a series of operations so that each consecutive pair of elements doesn't have a relationship where one divides the other. 
+
+To achieve this, you're allowed to increment any number in the array by 1, and you can perform this operation up to twice the length of the array.
+
+The input consists of multiple test cases. For each case, you'll receive the length of the array followed by the array itself.
+
+Your task is to output, for each test case, the modified array that satisfies the given condition.
+
+Rest assured, a valid solution exists within the constraints provided. If there are multiple valid solutions, you can output any of them. 
+
+Let's dive into solving this intriguing problem!
+
+Write your solution in solution.cpp file

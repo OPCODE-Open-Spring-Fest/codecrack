@@ -1,0 +1,11 @@
+You're presented with an array of integers and a series of operations to perform on it. Each operation involves selecting a segment of the array and adding a specific integer to all elements within that segment. After performing these operations, you need to find the lexicographically minimum array among all possible resulting arrays.
+
+To clarify, an array is lexicographically smaller than another if there exists an index where its value is smaller, and all preceding values are equal.
+
+The input consists of multiple test cases. For each case, you're given the length of the array, the array itself, the number of operations to perform, and the details of each operation.
+
+Your task is to output, for each test case, the lexicographically minimum array obtained after applying all operations.
+
+Rest assured, the total size of arrays and operations across all test cases is within reasonable limits.
+
+Let's delve into crafting an algorithm to tackle this intriguing problem!

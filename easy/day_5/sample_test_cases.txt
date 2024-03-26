@@ -1,0 +1,29 @@
+Example
+input
+3
+4
+2 4 3 6
+3
+1 2 3
+2
+4 2
+output
+4 5 6 7
+3 2 3
+4 2
+
+Note
+In the first test case, the array [4,5,6,7]
+ can be achieved by applying 2
+ operations to the first element, 1
+ operation to the second element, 3
+ operations to the third element, and 1
+ operation to the last element. The total number of operations performed is 7
+, which is less than the allowed 8
+ operations in this case.
+
+In the second test case, the array [3,2,3]
+ can be achieved by applying two operations to the first element. Another possible resulting array could be [2,3,5]
+, because the total number of operations does not need to be minimum.
+
+In the third test case, not applying any operations results in an array that satisfies the statement's property. Observe that it is not mandatory to make operations.

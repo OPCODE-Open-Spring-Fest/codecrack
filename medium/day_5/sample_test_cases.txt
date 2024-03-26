@@ -1,0 +1,37 @@
+Examples
+input
+5
+2 5 1 2 2
+output
+3
+4 1 5
+input
+4
+8 3 5 2
+output
+2
+1 4 
+input
+5
+2 1 2 4 3
+output
+0
+
+Note
+In the first example you can remove any element with the value 2
+ so the array will look like [5,1,2,2]
+. The sum of this array is 10
+ and there is an element equals to the sum of remaining elements (5=1+2+2
+).
+
+In the second example you can remove 8
+ so the array will look like [3,5,2]
+. The sum of this array is 10
+ and there is an element equals to the sum of remaining elements (5=3+2
+). You can also remove 2
+ so the array will look like [8,3,5]
+. The sum of this array is 16
+ and there is an element equals to the sum of remaining elements (8=3+5
+).
+
+In the third example you cannot make the given array good by removing exactly one element.
