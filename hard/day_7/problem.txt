@@ -1,0 +1,3 @@
+Bluemin has a sequence of positive integers.
+He wants to find the largest number that divides evenly into the least common multiple of each pair of numbers in the sequence. 
+So, he needs to calculate the greatest common divisor of the least common multiples of all possible pairs of elements in the given sequence.

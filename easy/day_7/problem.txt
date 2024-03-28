@@ -1,0 +1,6 @@
+Suppose you're given a positive integer, denoted as 'd'. Your task is to determine the smallest positive integer 'a' that satisfies two conditions:
+
+1. 'a' must have a minimum of four divisors.
+2. The difference between any two divisors of 'a' must be at least 'd'.
+
+In simpler terms, you need to find the smallest positive number 'a' that has at least four factors, and the gap between any two factors of 'a' must be greater than or equal to 'd'.
