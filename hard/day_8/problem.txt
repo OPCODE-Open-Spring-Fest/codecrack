@@ -1,0 +1,12 @@
+Bluemin wants to buy an expensive chocolate from Arya. She has a bunch of coins, each with a different value. The chocolate costs a certain amount, and Bluemin will pick some of her coins to pay for it.
+
+Now, Bluemin wonders: after she gives the coins to Arya, what other amounts of money could Arya make using those coins? Bluemin doesn't want Arya to have too many options, so she wants to know all the possible amounts Arya could make using a subset of the coins that add up to the price of the chocolate.
+
+Input:
+The first line tells us how many coins Bluemin has and the price of the chocolate.
+The next line lists the values of Bluemin's coins.
+
+
+Output:
+The first line of the output tells us how many different amounts Arya could make.
+Then it lists those amounts in ascending order.
