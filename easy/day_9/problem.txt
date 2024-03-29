@@ -1,0 +1,13 @@
+On a chilly winter evening, Changu and his elder brother Mangu were nestled by the fireplace, amusing themselves with intriguing puzzles. When it was Changu's turn, he presented Mangu with a number, saying:
+
+— Rearrange the digits of this number to form the smallest possible number without any leading zeroes.
+
+— Easy peasy! — exclaimed Mangu confidently, promptly providing an answer.
+
+Changu had chosen the number randomly, so he wasn't certain whether Mangu's answer was correct. Help Changu ascertain the correctness of Mangu's response, as the impatient brother eagerly awaits the verdict.
+
+Input:
+The first line consists of an integer, n (0 ≤ n ≤ 10^9), without any leading zeroes. The second line contains an integer, m (0 ≤ m ≤ 10^9), which is Mangu's answer, possibly with leading zeroes.
+
+Output:
+If Mangu's answer is correct, print "OK"; otherwise, print "WRONG_ANSWER".
