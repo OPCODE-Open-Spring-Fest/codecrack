@@ -1,0 +1,16 @@
+Bluemin presents you with a rectangular grid, with n rows and m columns. Each cell in the grid, located at the i-th row from the top and the j-th column from the left, contains a value aij.
+
+You're allowed to perform the following operation any number of times:
+
+Pick any two neighboring cells and change the signs of the numbers in them (multiply them by -1). Two cells are considered neighbors if they share a side.
+
+Your goal is to find the maximum sum, X, of all the numbers in the grid after applying these operations as many times as you wish.
+
+Input:
+For each test case, you're given:
+- The number of test cases, t (1 ≤ t ≤ 100).
+- Two integers n and m (2 ≤ n, m ≤ 10), representing the number of rows and columns in the grid.
+- Following are n lines, each containing m integers. The j-th element in the i-th line represents aij (-100 ≤ aij ≤ 100).
+
+Output:
+For each test case, print one integer X, which is the maximum possible sum of all the values in the grid after applying the operations as many times as needed.
