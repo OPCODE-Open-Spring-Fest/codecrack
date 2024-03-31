@@ -1,3 +1,4 @@
+//write your code here
 #include <iostream>
 using namespace std;
 #include<vector>
@@ -17,11 +18,16 @@ int main()
     }
     sort(arr.begin(),arr.end());
     int i;
+    int sum=0;
     for( i=0;i<arr.size();i++)
     {
-        if(arr[i]!=0)
+        if(arr[i]!=0){
+            sum+=arr[i];
         break;
     }
+    }
+    if(sum!=0)
+    {
     swap(arr[0],arr[i]);
     int numcheck=0;
     for(int j=0;j<arr.size();j++)
@@ -32,5 +38,9 @@ int main()
     cout<<"OK"<<endl;
     else
     cout<<"WRONG_ANSWER"<<endl;
+    }
+    else{
+        cout<<"WRONG_ANSWER"<<endl;
+    }
     return 0;
 }
