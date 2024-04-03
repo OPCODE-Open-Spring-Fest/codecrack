@@ -8,7 +8,7 @@ int main(){
     cin>>q;
 
     while(q--){
-        int k;
+        long long k;
         cin>>k;
 
         long long num=9;//num as count_of_numbers_with_digit as 9 numbers have 1 digits
