@@ -1,0 +1,19 @@
+Imagine a string that stretches to infinity, composed of all positive integers in ascending order:
+
+12345678910111213141516171819202122232425...
+
+Your mission is to handle q inquiries of the following nature: what digit occupies position k in this string?
+
+Input
+Commence by inputting an integer q, indicating the number of inquiries.
+Following this, there are q lines detailing the inquiries. Each line contains an integer k, representing a 1-indexed position in the string.
+
+Output
+For each inquiry, disclose the digit situated at the specified position.
+
+Constraints
+
+There are limitations to consider:
+
+1 ≤ q ≤ 1000
+1 ≤ k ≤ 10^18
