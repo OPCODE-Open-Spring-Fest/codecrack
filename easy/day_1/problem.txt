@@ -13,6 +13,3 @@ For each test case, print one integer — the number of ways to choose exactly 3
 Go to sample_test_case.txt for sample test cases to the above problem
 Go to solution.cpp to get the provided solution to the above problem
 Go to task.txt to get the information on what you have to do in this challenge.
-
-
-hello hello
