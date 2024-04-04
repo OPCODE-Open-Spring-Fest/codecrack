@@ -2,14 +2,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 #define int long long int
-
-
-
-
-
 void solve ()
 {
-   
     int n;
     cin>>n; 
     int a[n];
@@ -45,19 +39,13 @@ void solve ()
     cout<<"NO"<<endl;
     return;
 }
-
-
 signed  main() {
 
 	int t;
 	cin>>t;
-    // cout<<t;
 	while(t--)
     {
         solve();
 
-    }  
-
-    
-
+    }
 }
