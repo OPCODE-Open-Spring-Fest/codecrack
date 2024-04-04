@@ -11,9 +11,9 @@ int main(){
         long long n;
         cin>>n;
         
-        int num=9;//num as count_of_number having 1 digit
+        long long num=9;//num as count_of_number having 1 digit
         int digit=1;
-        int i=0;//counting the number at which k index conincides
+        long long i=0;//counting the number at which k index conincides
 
         // counting til the digit group is reached 
         while(n>digit*num){
