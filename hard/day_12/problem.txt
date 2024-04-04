@@ -1,0 +1,16 @@
+
+Consider a task where you're given a string comprising lowercase Latin letters of length n. 
+Additionally, there are m queries to process. Each query requires determining the cost of transforming a substring of the given string into a "beautiful" string. 
+A string is considered beautiful if it does not contain any palindromic substrings of length 2 or greater. 
+The cost of transforming a substring is defined as the minimum number of operations required to make it beautiful. 
+An operation allows changing any character in the substring to one of the first three letters of the Latin alphabet (in lowercase).
+
+Input
+The first line contains two integers n and m (1≤n,m≤2⋅10^5) — the length of the string s and the number of queries.
+
+The second line contains the string s, it consists of n characters, each character one of the first 3 Latin letters.
+
+The following m lines contain two integers li and ri (1≤li≤ri≤n) — parameters of the i-th query.
+
+Output
+For each query, print a single integer — the cost of the substring of the string s from li-th to ri-th position, inclusive.

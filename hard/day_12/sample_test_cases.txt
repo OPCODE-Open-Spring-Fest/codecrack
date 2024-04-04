@@ -1,0 +1,24 @@
+Example
+
+input
+5 4
+baacb
+1 3
+1 5
+4 5
+2 3
+
+output
+1
+2
+0
+1
+
+
+Note:
+Consider the queries of the example test.
+
+-> in the first query, the substring is baa, which can be changed to bac in one operation;
+-> in the second query, the substring is baacb, which can be changed to cbacb in two operations;
+-> in the third query, the substring is cb, which can be left unchanged;
+-> in the fourth query, the substring is aa, which can be changed to ba in one operation.
