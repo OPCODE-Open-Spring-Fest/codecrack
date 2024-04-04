@@ -1,0 +1,28 @@
+Example
+
+input       
+5
+8
+1 1 2 3 8 2 1 4
+2
+1 2
+10
+0 2 1 6 3 4 1 2 8 3
+2
+1 1000000000
+3
+0 1000000000 2
+
+output
+3
+0
+10
+0
+1
+
+Note:
+For the first test cases the pairs are (i,j) = {(2,4),(2,8),(3,8)}.
+
+-> The pair (2,4) is true because a2=1, a4=3 and 1<2<3<4.
+-> The pair (2,8) is true because a2=1, a8=4 and 1<2<4<8.
+-> The pair (3,8) is true because a3=2, a8=4 and 2<3<4<8.
