@@ -1,0 +1,15 @@
+You have a bunch of numbers, and for each number, you can remove digits one at a time. 
+But you can't leave just one digit remaining. 
+Your goal is to find the minimum number of digit removals needed to make the resulting number divisible by 25 and positive. 
+Remember, the resulting number shouldn't have any leading zeroes.
+
+You're given a set of test cases, each with a different number. 
+For each test case, you need to figure out how many digits you should remove to achieve a number divisible by 25.
+
+Input:
+You'll receive several test cases. Each test case contains a positive integer.
+
+Output:
+For each test case, output the minimum number of digit removals required to obtain a positive number divisible by 25.
+
+Remember, the numbers given won't have any leading zeroes.
