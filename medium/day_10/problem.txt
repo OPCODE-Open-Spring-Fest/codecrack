@@ -1,0 +1,15 @@
+Bluemin, a young enthusiast, is fond of a particular operation. He has an array 'a' with 'n' elements and he's keen on performing the following operation repeatedly:
+
+He selects two adjacent elements, removes them, and replaces them with a single integer, which is the result of their bitwise XOR. Note that this reduces the length of the array by one.
+
+Bluemin wonders if he can transform all elements of the array to be equal. However, to keep things interesting, he insists on leaving at least 2 elements in the array.
+
+Input:
+The first line contains an integer 't' (1 ≤ t ≤ 15), indicating the number of test cases to solve.
+
+For each test case:
+- The first line contains an integer 'n' (2 ≤ n ≤ 2000), denoting the number of elements in the array 'a'.
+- The second line contains 'n' space-separated integers 'a1, a2, ..., an' (0 ≤ ai < 2^30), representing the elements of the array 'a'.
+
+Output:
+If Bluemin can make all elements equal while ensuring at least 2 elements remain, print "YES". Otherwise, print "NO".

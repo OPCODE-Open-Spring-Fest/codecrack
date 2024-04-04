@@ -1,0 +1,12 @@
+Example
+
+Input:
+3
+7
+19
+12
+
+Output:
+7
+4
+1

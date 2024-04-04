@@ -1,0 +1,11 @@
+Bluemin possesses two numbers: a and b. However, Bluemin deems number a too brief. Consequently, he opts to replicate the process of extending number a n times.
+
+Extending a number entails appending precisely one digit to the number (in decimal notation) on the right, ensuring that the resulting number is divisible by Bluemin's number b. If it proves impossible to achieve a number divisible by b, the extension operation cannot proceed.
+
+Your duty is to aid Bluemin in determining the resulting number after applying the extension operation to number a n times.
+
+Input:
+The initial line comprises three integers: a, b, n (1 ≤ a, b, n ≤ 10^5).
+
+Output:
+Print a single integer, devoid of leading zeros, which Bluemin can obtain by executing the extension operations to number a n times. If no such number exists, print -1. In the event of multiple potential solutions, any one of them suffices.

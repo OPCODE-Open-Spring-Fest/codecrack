@@ -1,0 +1,19 @@
+Imagine a festive gathering where people engage in round dances. Each dance circle must consist of at least 2 individuals, and every person must have exactly two neighbors. In a circle of 2 people, each person shares the same neighbor on both sides.
+
+Your task is to determine the minimum and maximum number of round dances possible given the information about the participants' remembered neighbors.
+
+For instance, if there were 6 attendees at the festival, and their remembered neighbor numbers are [2, 1, 4, 3, 6, 5], then the minimum number of round dances would be 1, as illustrated by the sequence: 1−2−3−4−5−6−1. The maximum number would be 3, represented by: 1−2−13−4−35−6−5.
+
+Input
+Begin with a positive integer, t (1≤t≤10^4), indicating the number of test cases.
+
+For each test case:
+- The first line comprises a positive integer, n (2≤n≤2⋅10^5), denoting the number of people at the festival.
+- The second line consists of n integers, ai (1≤ai≤n,ai≠i), representing the remembered neighbor numbers for each person.
+
+Assumptions:
+- The provided test cases are accurate and correspond to at least one valid division of people into round dances.
+- The total sum of n across all test cases does not exceed 2⋅10^5.
+
+Output
+For each test case, provide two integers—the minimum and maximum number of round dances achievable.

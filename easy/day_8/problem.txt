@@ -1,0 +1,10 @@
+Imagine you're playing a cool game called Cubecraft. You start with just one stick, but you're eager to make a bunch of torches. Each torch needs one stick and one coal.
+
+Now, you meet a friendly trader with two offers:
+
+Trade one stick for x sticks. (You give one stick and get x sticks.)
+Trade y sticks for one coal. (You give y sticks and get one coal.)
+
+Your goal is simple: figure out the fewest trades needed to make at least k torches. You can use each offer as many times as you want, in any order.
+
+You'll need to find this answer for multiple rounds of the game. But don't worry, there's always a way to do it within the rules of the game!

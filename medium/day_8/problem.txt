@@ -1,0 +1,7 @@
+You're given a string made up of letters from 'a' to 'z'. Your job is to find the longest sequence of letters that repeats at least once in the string.
+
+Input:
+You'll get a single line with a bunch of letters in it.
+
+Output:
+You need to print the longest repeating sequence of letters you find. If there's more than one possibility, just pick any of them. But if there's no repeating sequence, print -1.

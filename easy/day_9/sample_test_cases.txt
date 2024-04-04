@@ -1,0 +1,15 @@
+Examples
+
+input:
+3310
+1033
+
+output:
+OK
+
+input:
+4
+5
+
+output:
+WRONG_ANSWER

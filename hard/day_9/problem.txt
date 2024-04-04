@@ -1,0 +1,10 @@
+Before the commencement of the football season in Bhagalpur, a peculiar magical ritual takes place. 
+The seasoned sorcerers must uncover a mystical grid of dimensions n × n (where n is an even number). The deities forbid the commencement of the championship without it. 
+This matrix must comprise integers ranging from 0 to n - 1, with the main diagonal exclusively containing zeroes, and the matrix being symmetrical. 
+Furthermore, each row must consist of distinct numbers. The sorcerers, weary from their mental exertions, beseech you to devise a program to unearth such a matrix.
+
+Input:
+The initial line presents a single integer, n (2 ≤ n ≤ 1000), where n is an even number.
+
+Output:
+Dispense n lines, each comprising n numbers — the sought-after matrix. Separate the numbers with spaces. If multiple solutions exist, output any one of them.

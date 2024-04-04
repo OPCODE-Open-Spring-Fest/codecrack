@@ -1,0 +1,28 @@
+Example
+
+input
+5
+100
+71345
+3259
+50555
+2050047
+
+output
+0
+3
+1
+3
+2
+
+Note
+In the first test case, it is already given a number divisible by 25.
+
+In the second test case, we can remove the digits 1, 3, and 4 to get the number 75.
+
+In the third test case, it's enough to remove the last digit to get the number 325.
+
+In the fourth test case, we can remove the three last digits to get the number 50.
+
+In the fifth test case, it's enough to remove the digits 4 and 7.
+

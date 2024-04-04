@@ -1,0 +1,9 @@
+Bluemin has a row of n cubes, each labeled with a number from 1 to n. He plans to perform exactly j operations, where in each operation, he'll pick up two cubes and swap their positions.
+
+Now, Bluemin wonders: how many different sequences of cubes can he have at the end? Since Bluemin is uncertain about the number of operations he'll make, he wants to know the answer for every possible j between 1 and k.
+
+Input:
+The input consists of a single line containing two integers, n and k (2 ≤ n ≤ 10^9, 1 ≤ k ≤ 200). Here, n represents the number of cubes Bluemin has, and k is a parameter specified in the problem statement.
+
+Output:
+You should print k space-separated integers. The i-th integer represents the number of possible sequences Bluemin can end up with if he performs exactly i operations. Since this number might be very large, print the remainder when it's divided by 10^9 + 7.

@@ -1,0 +1,17 @@
+Consider a positive integer to be extremely round if it consists of only one non-zero digit. For instance, numbers like 5000, 4, 1, 10, and 200 qualify as extremely round, while numbers like 42, 13, 666, 77, and 101 do not.
+
+You're provided with an integer, n. Your task is to determine the count of extremely round integers, denoted as x, where 1≤x≤n.
+
+Input
+Begin by inputting an integer, t (1≤t≤10^4), indicating the number of test cases.
+
+Following this, t lines ensue. Each line contains an integer, n (1≤n≤999999), describing the respective test case.
+
+Output
+For each test case, produce a single integer—the count of extremely round integers, x, satisfying the condition 1≤x≤n.
+
+Constraints
+Constraints to consider are as follows:
+
+1 ≤ t ≤ 10^4
+1 ≤ n ≤ 999999
