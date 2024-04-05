@@ -1,0 +1,16 @@
+After securing victory in a challenging onsite round of the CodeYudh Programming Contest, Bluemin hopped on a bus bound for his college. Along the way, he encountered his fellow coder, Biraj, and to stave off boredom during the journey, they decided to engage in a game.
+
+Here's how their game unfolded:
+
+- Initially, there's a pile containing x 100-rupees coins and y 10-rupees coins.
+- Taking turns alternately, Bluemin takes the first turn.
+- Each turn involves extracting exactly 220 rupees from the pile. When it's Bluemin's turn, if there are multiple ways to take out 220 rupees, he selects the option with the maximum number of 100-rupees coins. Conversely, when it's Biraj's turn, if there are multiple ways to extract 220 rupees, he opts for the one with the most 10-rupees coins.
+- If either Bluemin or Biraj fails to extract exactly 220 rupees from the pile, they lose the game.
+
+Now, let's determine the winner of this intriguing game.
+
+Input: The first line contains two integers x (0 ≤ x ≤ 10^6) and y (0 ≤ y ≤ 10^6), separated by a single space.
+
+Output: If Bluemin emerges victorious, print "Bluemin". Otherwise, print "Biraj".
+
+So, who will emerge triumphant in this tactical battle of wits? Let's find out.
