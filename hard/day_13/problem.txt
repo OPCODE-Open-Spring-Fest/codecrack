@@ -1,0 +1,16 @@
+Bluemin is engaged in a game with red and blue marbles. He has arranged n marbles in a row from left to right. 
+Surprisingly, the arrangement forms a zebroid.
+
+A zebroid is a non-empty sequence of red and blue marbles where the colors alternate. 
+For instance, sequences like (red; blue; red) and (blue) are zebroids, while (red; red) is not.
+
+Now Bluemin ponders over the number of ways to select a zebroid subsequence from this arrangement. 
+He seeks your assistance in solving this intriguing puzzle and finding the count modulo 1000000007 (10^9 + 7).
+
+Input
+
+The first line presents a single integer n (1 ≤ n ≤ 10^6), indicating the count of marbles in Bluemin's sequence.
+
+Output
+
+Your task is to print a single number, the answer to the problem modulo 1000000007 (10^9 + 7).
