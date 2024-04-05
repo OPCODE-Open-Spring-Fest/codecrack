@@ -23,8 +23,12 @@ int main(){
             digit++;
         }
 
+        cout<<i<<endl;
+
         // calculating final number
-        i+=ceil(n/digit); 
+        i+=static_cast<int>(ceil(static_cast<double>(n) / digit));
+
+        cout<<i<<endl;
 
         // finding coincing index
         char ans=(to_string(i))[(n-1)%digit];
