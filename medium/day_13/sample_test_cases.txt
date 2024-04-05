@@ -1,0 +1,11 @@
+Examples
+
+Input
+2 2
+Output
+Bluemin
+
+Input
+3 22
+Output
+Biraj
