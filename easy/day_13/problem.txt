@@ -1,0 +1,11 @@
+Bluemin, a young enthusiast for challenges, faces a mind-boggling problem posed by Minaal to put his ambition to the test.
+
+The task at hand is to manipulate an array of integers [A1, A2, A3,..., AN] in such a way that the product of all its elements equals zero. Bluemin can perform a single operation on any chosen element, adjusting its value by either incrementing or decrementing it. He is free to repeat this operation on different elements as needed.
+
+The puzzle begins with Bluemin receiving two lines of input:
+
+The first line holds a single integer, N (where 1 ≤ N ≤ 10^5), indicating the size of the array.
+The second line consists of N integers, A1, A2, A3,..., AN, with each Ai satisfying the constraint -10^5 ≤ Ai ≤ 10^5.
+To conquer this challenge, Bluemin must determine the minimum number of operations required to achieve the desired product of zero.
+
+Bluemin, with his determination and analytical skills, is ready to tackle this problem head-on. Let's see how he overcomes it!
