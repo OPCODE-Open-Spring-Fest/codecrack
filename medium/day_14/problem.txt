@@ -1,0 +1,16 @@
+Consider this mathematical conundrum: given two integers nn and k, determine the count of arrays with a length of nn that adhere to specific criteria:
+
+- All elements within the array must be integers ranging from 0 to 2k−1 (inclusive).
+- The bitwise AND operation of all elements must yield 0.
+- Strive to maximize the sum of the array's elements.
+
+The solution should output the remainder when this count is divided by 109+7.
+
+Input:
+
+- An integer tt (where 1≤t≤10): denoting the number of test cases.
+- Each test case contains two integers n and k (where 1≤n≤105 and 1≤k≤20).
+
+Output:
+
+- For each test case: the count of arrays satisfying the given conditions, expressed as the remainder when divided by 109+7.

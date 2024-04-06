@@ -1,0 +1,17 @@
+Example
+
+Input
+2
+2 2
+100000 20
+
+Output
+4
+226732710
+
+Note:
+In the first example, the 4 arrays are:
+[3,0],
+[0,3],
+[1,2],
+[2,1]. 
