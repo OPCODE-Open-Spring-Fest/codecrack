@@ -12,6 +12,11 @@ int main()
         int a[n];
         for (int i = 0; i < n; i++)
             cin >> a[i];
+        if (n == 1)
+        {
+            cout << -1 << endl;
+            exit(0);
+        }
         int mini = INT_MAX;
         for (int k = 0; k < n; k++)
         {
