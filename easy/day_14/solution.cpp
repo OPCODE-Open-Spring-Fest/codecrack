@@ -35,5 +35,4 @@ int main()
         else
             cout << mini << endl;
     }
-    
 }
