@@ -1,5 +1,6 @@
 // write your code here
 #include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 int main()
 {
@@ -10,34 +11,41 @@ int main()
         int n;
         cin >> n;
         int a[n];
+        int count = 0;
         for (int i = 0; i < n; i++)
+        {
             cin >> a[i];
+            if (a[i] == 2)
+            {
+                count++;
+            }
+        }
         if (n == 1)
         {
             cout << -1 << endl;
             exit(0);
         }
-        int mini = INT_MAX;
-        for (int k = 0; k < n; k++)
+        if (count % 2 == 1)
         {
-            long long productK = 1, productRem = 1;
-            for (int i = 0; i <= k; i++)
-            {
-                productK *= a[i];
-            }
-            for (int i = k + 1; i < n; i++)
-            {
-                productRem *= a[i];
-            }
-            if (productK == productRem)
-            {
-                if (k + 1 < mini)
-                    mini = k + 1;
-            }
-        }
-        if (mini == INT_MAX)
             cout << -1 << endl;
+            exit(0);
+        }
+
         else
-            cout << mini << endl;
+        {
+            int count2=0;
+            int i=0;
+            while(count2<count/2)
+            {
+                if(a[i]==2)
+                {
+                    count2++;
+                }
+                i++;
+            }
+            if(i==0)i++;
+            cout<<i<<endl;
+        }
+
     }
 }
