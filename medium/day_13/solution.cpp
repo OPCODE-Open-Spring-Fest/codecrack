@@ -37,6 +37,6 @@ int main() {
             cout<<"Bluemin"<<endl;
             break;
         }
-    }
+
     return 0;
 }
