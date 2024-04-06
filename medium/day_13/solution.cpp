@@ -1,32 +1,42 @@
-//write your code here
-
-
 #include <iostream>
-using namespace std;
-long long int a[1000002]={0};
-int main() {
-    // cout<<5;
-    long long int n;
-    cin>>n;
-    long long int mod=1000000007;
 
-    long long int i,s;
-    s=0;
-    a[0]=0;
-    a[1]=1;
-    a[2]=2;
-    s=3;
-    for(i=3;i<=n;i++)
-    {
-        a[i]=(a[i]+a[i-1]+1)%mod;
-        s=(s+a[i])%mod;
-        a[i]=(a[i]+a[i-2])%mod;
+using namespace std;
+
+int main() {
+    int x,y;
+    cin>>x>>y;
+
+    while (x>=0 && y>=0) {
+        if (x >= 2 && y >= 2) {
+            x -= 2;
+            y -= 2;
+        } 
+        else if (x == 1 && y >= 12) {
+            x -= 1;
+            y -= 12;
+        } 
+        else if(x == 0 && y>=22){
+            y -= 22;
+        }
+        else {
+            cout<<"Biraj"<<endl;
+            break;
+        }
+        if(y>=22){
+            y -= 22;
+        }
+        else if((y>=12 && y<22) && x>=1){
+            y -= 12;
+            x -=1;
+        }
+        else if((y<12 && y>=2) && x>=2){
+            y -= 2;
+            x -= 2;
+        }
+        else{
+            cout<<"Bluemin"<<endl;
+            break;
+        }
     }
-    if(n==1)
-    cout<<1;
-    else if(n==2)
-    cout<<3;
-    else
-    cout<<s;
-        return 0;
+    return 0;
 }
