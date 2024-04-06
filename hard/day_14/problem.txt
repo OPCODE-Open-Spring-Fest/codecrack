@@ -1,0 +1,17 @@
+Bluemin, an ardent television aficionado, meticulously records his daily viewing schedule. His agenda consists of n shows, each delineated by its start time  li  and end time  ri .
+
+Armed with two televisions, Bluemin ponders whether he can accommodate all the shows simultaneously. 
+
+However, he must adhere to a crucial stipulation: while he can enjoy two distinct shows concurrently using the two TVs, he cannot overlap shows on a single TV if one ends precisely as another begins.
+
+To assist Bluemin in his scheduling conundrum, ascertain whether his two TVs suffice to cover all  n  shows.
+
+Input
+The first line contains one integer n (1 ≤ n ≤ 2·10^5) — the number of shows.
+Each of the next n lines contains two integers li and ri (0 ≤ li < ri ≤ 10^9) — starting and ending time of i-th show.
+
+
+Output
+If Bluemin is able to check out all the shows using only two TVs then print "YES" (without quotes). Otherwise, print "NO" (without quotes).
+
+Assess Bluemin's capability to navigate through his shows, ensuring an optimal viewing experience with the available resources.
