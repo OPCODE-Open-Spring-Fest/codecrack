@@ -1,0 +1,20 @@
+Bluemin was recently presented with a collection of n dominoes, each bearing two distinct integers ranging from 1 to n.
+
+Could he distribute all the dominoes into two separate sets, ensuring that each set contains dominos with unique numbers? Each domino must be assigned to exactly one of the two sets.
+
+For instance, if Bluemin has 4 dominoes: {1,4}, {1,3}, {3,2}, and {4,2}, he could arrange them into two sets as follows: the first set could comprise the first and third dominoes ({1,4} and {3,2}), while the second set could include the second and fourth ones ({1,3} and {4,2}).
+
+Input:
+The initial line consists of a single integer t (1≤t≤10^4), denoting the number of test cases.
+Following this, for each test case:
+- The first line holds an even integer n (2≤n≤2⋅10^5), representing the count of dominoes.
+- The subsequent n lines contain pairs of numbers ai and bi (1≤ai,bi≤n) describing the numbers on the i-th domino.
+
+It is guaranteed that the total sum of n across all test cases does not exceed 2⋅10^5.
+
+Output:
+For each test case, print:
+- "YES" if it's feasible to partition the n dominoes into two sets so that each set contains dominos with distinct numbers.
+- "NO" if such partitioning is not possible.
+
+The case of "YES" and "NO" can be represented in any form (e.g., Yes, yes, YES).
