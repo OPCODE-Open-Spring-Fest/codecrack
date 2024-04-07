@@ -1,0 +1,21 @@
+Bluemin and Biraj stumbled upon a clandestine laboratory, shrouded in secrecy.
+
+Within the confines of this laboratory, there lay a series of buttons, their count denoted by a, b, and c. 
+
+It transpired that Bluemin had the exclusive privilege to press a buttons, Biraj could only manipulate b buttons, while c buttons remained accessible to either of them. 
+
+In a strategic decision, Bluemin and Biraj opted to engage in a game, taking turns to activate these buttons. Bluemin commenced the game with his inaugural turn. 
+
+Each button could only be pressed once, inevitably leading to a moment where one of the boys would be unable to proceed.
+
+The lad unable to act upon a button would face defeat. The task at hand was to discern the victor if both lads executed their moves optimally.
+
+Input:
+
+The initial line presents a solitary integer, t (1≤t≤10^4) — indicating the number of test cases.
+
+Each test case manifests as a triplet of integers: a, b, and c (1≤a,b,c≤10^9) — symbolizing the count of buttons solely accessible to Bluemin, the number of buttons exclusively within Biraj's purview, and the buttons amenable to both of them, respectively.
+
+Output:
+
+For each test case, the outcome is either a declaration of "First" signifying Bluemin's triumph or "Second" indicating Biraj's victory.
