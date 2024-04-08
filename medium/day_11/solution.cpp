@@ -20,3 +20,4 @@ int main() {
         cout << s[(k - 1) % len] << endl;
     }
     return 0;
+}
