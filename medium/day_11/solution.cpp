@@ -18,7 +18,7 @@ int main()
             cnt *= 10;
             start *= 10;
         }
-        start += (k - 1) / len;
+        start+= (k - 1) / len;
         string s = to_string(start);
         cout << s[(k - 1) % len] << endl;
     }
