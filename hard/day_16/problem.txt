@@ -1,0 +1,25 @@
+Bluemin and his pal, the clever robot Bluemin++, are enthusiasts of tackling thrilling math challenges.
+
+One fine day, Bluemin++ concocted numbers n and x and inscribed the following equation on the board:
+
+                                        n & (n+1) & … & m=x,
+
+Here, the symbol & represents the bitwise AND operation. Then, Bluemin proposed to his friend Bluemin to determine the smallest possible value for m (where m≥n) such that the equation on the board holds true.
+
+Unfortunately, Bluemin found himself unable to crack this puzzle mentally, prompting him to seek assistance from a computer. Swiftly, he scripted a program and unveiled the solution.
+
+Can you venture into this perplexing problem?
+
+Input: 
+
+Each examination comprises numerous test instances. The initial line entails the count of test cases t(1≤t≤2000). Subsequently, each test case description ensues.
+
+The solo line of every test case embraces two integers n, x (0≤n,x≤10^18).
+
+Output: 
+
+For each test instance, unveil the minutest conceivable value of m such that the equation holds true.
+
+If no m exists satisfying the equation, denote it as −1 instead.
+
+It's evident that if the requisite m does exist, its value does not surpass 5⋅10^18.
