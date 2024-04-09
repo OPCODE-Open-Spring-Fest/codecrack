@@ -1,0 +1,20 @@
+Examples
+
+Input
+1
+Output
+4
+
+Input
+2
+Output
+4
+
+Input
+3
+Output
+12
+
+Note:
+In the first sample case, the robot will end up 1 meter north, south, west, or east depending on its initial direction.
+In the second sample case, the robot will always end up √2 meters north-west, north-east, south-west, or south-east.

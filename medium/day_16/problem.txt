@@ -1,0 +1,13 @@
+In the boundless expanse of a two-dimensional plane, Bluemin stands resolute at the origin. With each passing second, Bluemin strides forth with precision, traversing the vast landscape in cardinal directions: north, south, east, and west. However, there is a twist to Bluemin's journey. At the end of every second, Bluemin must pivot, turning 90 degrees either left or right from the direction just traveled.
+
+At the outset of this odyssey, Bluemin is free to embark in any cardinal direction. Yet, as the seconds tick by, Bluemin must adhere to the rule of rotation, making each subsequent step a calculated turn from the previous direction.
+
+The question arises: after executing precisely n steps, how many distinct points can Bluemin possibly reach on this sprawling plane? The orientation at the journey's end holds no significance; what matters is the multitude of possible destinations Bluemin can arrive at.
+
+Input:
+A lone integer n (1 ≤ n ≤ 1000) delineates the number of steps Bluemin undertakes in this quest.
+
+Output:
+The denouement lies in a solitary integer, representing the count of diverse locations Bluemin could grace with its presence upon concluding exactly n steps.
+
+Let us endeavor to unveil the boundless possibilities Bluemin might uncover in its voyage.
