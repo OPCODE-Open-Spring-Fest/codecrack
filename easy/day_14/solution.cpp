@@ -34,7 +34,7 @@ int main()
         {
             int count2 = 0;
             int i = 0;
-            while (count2 < (count / 2))
+            while (count2 <(count / 2))
             {
                 if (arr[i] == 2)
                 {
