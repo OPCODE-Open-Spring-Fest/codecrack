@@ -1,0 +1,14 @@
+Example
+
+Input
+4
+5 3
+6 1
+7 4
+8 8
+
+Output
+YES
+YES
+NO
+YES

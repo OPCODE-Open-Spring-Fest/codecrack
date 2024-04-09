@@ -1,0 +1,10 @@
+In Bhagalpur, there are coins available in two denominations: 2 rupees and k rupees.
+
+Your task is to determine whether it's feasible to make up the sum of n rupees using these coins. This means finding out if there exists a combination of these coins, represented by non-negative integers x and y, where 2⋅x+k⋅y=n.
+
+Input:
+The first line contains an integer t (1≤t≤10^4), denoting the number of test cases.
+Each subsequent line of the test cases contains two integers n and k (1≤k≤n≤10^18; k≠2).
+
+Output:
+For each test case, output YES if it's possible to represent n rupees using the given coins. Otherwise, output NO. The case of the output (uppercase or lowercase) doesn't matter.
