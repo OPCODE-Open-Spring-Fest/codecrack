@@ -10,6 +10,7 @@ int main(){
         cin>>n>>k;
         if(n%2 != 0 && (n-k)%2 != 0){
             cout<<"NO"<<endl;
+            
         }
         else{
             cout<<"YES"<<endl;
