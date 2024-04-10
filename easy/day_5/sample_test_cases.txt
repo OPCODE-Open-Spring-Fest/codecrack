@@ -11,7 +11,6 @@ output
 4 5 6 7
 3 2 3
 4 2
-
 Note
 In the first test case, the array [4,5,6,7]
  can be achieved by applying 2

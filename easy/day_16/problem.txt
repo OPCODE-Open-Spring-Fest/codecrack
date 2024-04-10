@@ -8,3 +8,4 @@ Each subsequent line of the test cases contains two integers n and k (1≤k≤n�
 
 Output:
 For each test case, output YES if it's possible to represent n rupees using the given coins. Otherwise, output NO. The case of the output (uppercase or lowercase) doesn't matter.
+
