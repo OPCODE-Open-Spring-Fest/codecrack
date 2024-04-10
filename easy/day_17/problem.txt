@@ -1,0 +1,20 @@
+Given an array  a  of length  n , where elements can only be  -1  or  1 , we define the array as "good" if it satisfies the following conditions simultaneously:
+
+1. The sum of all elements in the array  a  is greater than or equal to zero.
+2. The product of all elements in the array  a  equals one.
+
+You are allowed to perform a single operation, which involves selecting any element  ai   in the array and changing its value to its opposite. For instance, if  ai = -1 , you can set  ai = 1 , and vice versa.
+
+Your task is to determine the minimum number of operations required to transform the array  a  into a "good" array. Note that it is always possible to achieve this transformation.
+
+Input:
+Each test case consists of multiple instances. The first line of each test case contains an integer  t (1 ≤ t ≤ 500)  denoting the number of test cases. The subsequent lines describe each test case.
+
+For each test case:
+- The first line contains an integer  n (1 ≤ n ≤ 100) , representing the length of the array  a .
+- The second line contains  n  integers  a1, a2, ..., an (ai = +1 or -1) , indicating the elements of the array  a .
+
+Output:
+For each test case, output a single integer representing the minimum number of operations required to make the array  a  "good".
+
+By performing operations wisely, we aim to minimize the total number of operations needed to achieve this goal.
