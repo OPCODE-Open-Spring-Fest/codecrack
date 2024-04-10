@@ -1,0 +1,17 @@
+Bluemin, a determined young boy, finds himself facing a daunting challenge as a deadly virus threatens to spread among the houses arranged in a circular manner, numbered from 1 to  n . Initially, a certain number of these houses ( m  of them) are already infected. Each morning, Bluemin can select one uninfected house and protect it permanently, thereby preventing it from being infected.
+
+Here's how the scenario unfolds each day:
+
+1. Bluemin chooses an uninfected house and protects it permanently.
+2. All uninfected, unprotected houses with at least one infected neighbor become infected.
+
+Bluemin is determined to halt the virus's spread. His goal is to minimize the number of houses ultimately infected by selecting the most strategic houses to protect.
+
+Input:
+-  t  (where  1 ≤ t ≤ 10^4 ): the number of test cases.
+- For each test case:
+  -  n  and  m  (where  5 ≤ n ≤ 10^9  and  1 ≤ m ≤ min(n,10^5) ): the number of houses and initially infected houses respectively.
+  -  m  distinct positive integers  a_1, a_2, . . . , a_m  (where  1 ≤ a_i ≤ n ): indices of initially infected houses.
+
+Output:
+- For each test case, output an integer indicating the minimum number of houses that will be infected in the end, after optimal protection strategies are applied.
