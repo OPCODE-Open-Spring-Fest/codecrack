@@ -1,0 +1,18 @@
+Consider a scenario where you're provided with a string  s  consisting of lowercase English letters. Your task is to find another string  t  of the same length as  s , comprising lowercase English letters, such that  t  is as close to being "Good" as possible while differing from  s  in the fewest possible positions.
+
+A string is deemed "Good" if all its characters occur an equal number of times. For instance, "coder", "appall", and "ttttttt" are examples of Good strings, while "wowwow" and "codechef" are not.
+
+Each test case in the input consists of two lines. The first line holds an integer  n , indicating the length of string  s . The second line contains the string  s  itself.
+
+Your objective is to output, for each test case, the minimum number of positions where  s  and a Good string  t  can differ, followed by such a string  t . If there are multiple solutions, any valid one can be provided. It's guaranteed that at least one Good string exists for each test case.
+
+Input:
+-  t  (where  1 ≤ t ≤ 10^4 ): the number of test cases.
+- For each test case:
+  -  n  (where  1 ≤ n ≤ 10^5 ): the length of string  s .
+  -  s : the string itself, comprising lowercase English letters.
+
+Output:
+- For each test case:
+  - The minimum number of differing positions between  s  and a Good string  t .
+  - Such a Good string  t .
