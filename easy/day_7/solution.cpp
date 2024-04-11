@@ -51,5 +51,5 @@ int main()
 
         cout << fac1 * fac2 << endl;
     }
-    return 0;
+    return 0 ;
 }
