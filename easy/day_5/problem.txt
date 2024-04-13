@@ -1,13 +1,17 @@
-You've been tasked with a problem where you're given an array of positive integers. The objective is to modify this array through a series of operations so that each consecutive pair of elements doesn't have a relationship where one divides the other. 
+You're handed an array of  n  positive integers  a1, a2, . . ., an . 
 
-To achieve this, you're allowed to increment any number in the array by 1, and you can perform this operation up to twice the length of the array.
+You're allowed to perform at most  2n  operations, each of which involves selecting any subset of the array and adding 1 to each selected element.
 
-The input consists of multiple test cases. For each case, you'll receive the length of the array followed by the array itself.
+Your task is to modify the array such that for each  i = 1, 2, . . ., n-1 ,  a{i+1}  is not divisible by  ai . 
 
-Your task is to output, for each test case, the modified array that satisfies the given condition.
+There's no need to minimize the number of operations.
 
-Rest assured, a valid solution exists within the constraints provided. If there are multiple valid solutions, you can output any of them. 
+Input:
+-  t  (where  1 ≤ t ≤ 10^4 ): number of test cases.
+- For each test case:
+  -  n  (where  1 ≤ n ≤ 10^4 ): length of the given array.
+  -  n  integers  a1, a2, . . ., an  (where  1 ≤ ai ≤ 10^9 ): the given array.
 
-Let's dive into solving this intriguing problem!
-
-Write your solution in solution.cpp file
+Output:
+- For each test case, print the modified array  a  on a separate line.
+- Print  n  integers representing the resulting array after applying the operations.
