@@ -1,0 +1,24 @@
+In the realm of beautiful strings, a string is deemed beautiful if it satisfies two crucial conditions:
+
+1. Every character within the string must be either A, B, or C.
+2. No two adjacent characters are identical.
+
+For instance, AB and BCAC qualify as beautiful strings, whereas BB and CBAAC fall short of the beauty standard.
+
+You're entrusted with a beautiful string  s . Your task: to morph it into the lexicographically smallest possible string while preserving its beauty. To achieve this, you're allowed to perform a single operation repeatedly:
+
+Operation:
+- Swap two adjacent characters in  s , ensuring that the string remains beautiful even after the swap.
+
+You're presented with  t  test cases, each requiring its own solution.
+
+Input:
+- Each test case segment commences with a line containing a single integer  t  ( 1 ≤ t ≤ 10^5 ) denoting the number of sets of input data.
+- Following this are descriptions of the test cases.
+- The first line of each test case holds the beautiful string  s , where  |s|  represents its length ( 1 ≤ |s| ≤ 10^6 ).
+
+Output:
+- Your output should consist of  t  lines.
+- Each line should contain the lexicographically smallest string that  s  can transform into for the corresponding test case.
+
+Feel free to swap and shuffle your way through the test cases, crafting the most aesthetically pleasing strings!
