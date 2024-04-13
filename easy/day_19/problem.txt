@@ -1,0 +1,20 @@
+You have a collection of  n  bags, each initially containing  i  candies in the  i -th bag. Your aim is to distribute candies such that all bags contain an equal amount.
+
+To achieve this, you can:
+
+1. Choose a value  m  where  1 ≤ m ≤ 1000 .
+2. Execute  m  operations. In each operation  j , you'll select one bag and add  j  candies to all bags except the chosen one.
+
+Your task is to find a sequence of operations that leads to equal distribution of candies among all bags. It's guaranteed that such a sequence always exists given the constraints.
+
+Input:
+- Each test consists of multiple test cases.
+- The first line contains  t  (where  1 ≤ t ≤ 100 ) — the number of test cases.
+- For each test case: a single integer  n  (where  2 ≤ n ≤ 100 ) representing the number of bags.
+
+Output:
+- For each test case, print two lines:
+  1.  m  (where  1 ≤ m ≤ 1000 ) — the number of operations.
+  2.  m  positive integers  a1, a2, . . ., am  (where  1 ≤ ai ≤ n ) indicating the bag chosen in the  i -th operation. 
+
+You can output any valid sequence if there are multiple possible solutions. 
