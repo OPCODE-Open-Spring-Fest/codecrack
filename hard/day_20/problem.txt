@@ -1,0 +1,14 @@
+Once Bluemin decided to adorn his living room with a tessellated floor. 
+The living room boasts dimensions  n x m  meters. 
+Bluemin had at his disposal planks of three varieties:  
+-a  planks measuring  1 x 2  meters,  
+-b  planks measuring  2 x 1  meters, 
+-c  planks measuring  2 x 2  meters. 
+
+Your task is to aid Bluemin in determining whether it's feasible to embellish the living room with such a collection of planks. If possible, you should provide one potential arrangement.
+
+Input:
+The initial line presents 5 space-separated integers:  n ,  m ,  a ,  b , and  c  ( 1 ≤ n, m ≤ 100 ,  0 ≤ a, b, c ≤ 10^4 ). Here,  n  and  m  denote the living room dimensions, while  a ,  b , and  c  represent the quantities of planks measuring  1 x 2 ,  2 x 1 , and  2 x 2  meters respectively. It's imperative not to rotate the planks.
+
+Output:
+If it proves impossible to adorn the room with the given set of planks, you should output "IMPOSSIBLE". Otherwise, you should provide one potential arrangement, consisting of  n  lines with  m  lowercase Latin letters each. Adjacent squares containing the same letter signify that they belong to the same plank. If the answer isn't unique, any valid arrangement will suffice.

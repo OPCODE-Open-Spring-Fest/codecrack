@@ -1,0 +1,23 @@
+Examples
+
+input
+2 6 2 2 1
+
+output
+aabcca
+aabdda
+
+input
+1 1 100 100 100
+
+output
+IMPOSSIBLE
+
+input
+4 4 10 10 10
+
+output
+aabb
+aabb
+bbaa
+bbaa
