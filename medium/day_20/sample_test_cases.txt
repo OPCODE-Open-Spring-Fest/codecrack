@@ -1,0 +1,11 @@
+Examples
+
+input
+AJ
+output
+81
+
+input
+1?AA
+output
+100

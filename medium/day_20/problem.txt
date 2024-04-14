@@ -1,0 +1,26 @@
+Bluemin, renowned for his expertise in code cracking, finds himself on a critical mission. 
+Tasked with retrieving classified research, encrypted within a secure safe, he encounters an unexpected obstacle: his formidable teeth are of no use in opening the safe. 
+However, headquarters provides a vital clue: a hint in the form of a string  s , detailing the structure of the safe code.
+
+The hint string follows a specific pattern:
+- If  si = "?" , any digit (0 to 9) can occupy the  i -th position in the code.
+- If  si  is a digit (0 to 9), it indicates that the corresponding position in the code must contain that digit.
+- If  s  contains letters from "A" to "J", all positions with the same letter must hold the same digit, and distinct letters must correspond to distinct digits.
+
+For example, a hint like "?JGJ9" allows variations such as "51919", "55959", "12329", "93539", etc.
+
+The authorities, preferring stealth over brute force, urge Bluemin to find the code by decoding the hint quietly.
+
+Bluemin, once adept at such tasks, seeks your help in determining the number of possible code variants matching the hint. Armed with this knowledge, he can gauge if he'll make it in time for his beloved TV show or face a sleepless night.
+
+Input:
+The first line contains the hint string  s , consisting of characters: ?, 0-9, A-J. The first character of  s  is guaranteed not to be "0".
+
+Output:
+Print the count of codes that match the given hint.
+
+Constraints:
+For partial scoring:
+-  1 ≤ |s| ≤ 5 
+For full scoring:
+-  1 ≤ |s| ≤ 10^5 , where  |s|  denotes the length of string  s .
